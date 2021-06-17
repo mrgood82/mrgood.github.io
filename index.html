@@ -7,25 +7,61 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <!-- ... -->
 </head>
 <body>
   <!-- ... -->
- <div class="w3-container w3-red w3-cell">
-  <p>Curriculum Vitae</p>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-primary">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+    <a class="navbar-brand" href="#">Portofolio</a>
+    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#data">Data Pribadi</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#Pendidikan">Pendidikan</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link " href="#Pengalaman">Pengalaman</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#Skill">Skill</a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+
+<div class="container">
+  
+  <img src="1.jpg" class="rounded-circle float-right" style="margin-top:30px;"  alt="Bagus Yuli Setyawan" width="150" height="100"> 
 </div>
 
-<div class="w3-container w3-black w3-cell">
-  <p>BAGUS YULU SETYAWAN,ST - Mulaidev 2021</p>
-</div> 
-<br>
-<marquee>Selamat Datang di Halaman Curriculum Vitae Saya</marquee>
-
+<div class="jumbotron" style="margin-top: 10px" >
+  <h1 class="display-4">Ahlan Wa Sahlan..</h1>
+  <p class="lead">Selamat datang di Website Portfolio saya. Perkenalkan Nama Saya Bagus Yuli Setyawan, Saya adalah seorang Pria Lulusan S1 Teknik Informatika dari Perguruan Tinggi STMIK Bandung. Saat ini saat aktif sebagai Tenaga Pendidik di SMK 4 LPPM RI Padalarang sebagai Guru Produktif RPL. </p>
+  <hr class="my-4">
+  <p>Bagi saya Pendidikan adalah Sebuah wadah pembentuk Karakter Bangsa, Sehingga Menjadi Pendidik Yang Terbaik adalah Penting untuk menghasilkan Generasi-Generasi Yang Cerdas dan Berakhlaq Baik</p>
+  <p class="lead">
+    <a class="btn btn-primary btn-lg" href="#data" role="button">Learn more</a>
+  </p>
+</div>
 
 
  
   <div class="w3-container w3-purple">
-  <h2>Data Pribadi</h2>
+  <h2 id="data">Data Pribadi</h2>
   </div>
 
   <div class="w3-container">
@@ -61,7 +97,7 @@
 
 
 <div class="w3-container w3-blue">
-  <h2>Pendidikan Formal</h2>
+  <h2 id="Pendidikan">Pendidikan Formal</h2>
   </div>
 
   <div class="w3-container">
@@ -94,7 +130,7 @@
 
 
 <div class="w3-container w3-blue-gray">
-  <h2>Pengalaman Kerja</h2>
+  <h2 id="Pengalaman">Pengalaman Kerja</h2>
   </div>
 
   <div class="w3-container">
@@ -140,7 +176,7 @@
 
 
 <div class="w3-container w3-teal">
-  <h2>SKILL atau Kecakapan</h2>
+  <h2 id="Skill">SKILL atau Kecakapan</h2>
   </div>
 
   <div class="w3-container">
